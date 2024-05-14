@@ -12,7 +12,7 @@ album = 1989
 // album = true error
 
 
-const sum = (a, b) => {
+const sum = (a: number, b: string) => {
     return a + b
 }
 
