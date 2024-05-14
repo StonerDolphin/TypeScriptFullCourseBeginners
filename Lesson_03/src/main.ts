@@ -1,22 +1,9 @@
-let myName: string = 'Dave'
-let meaningOfLife: number
-let isLoading: boolean
-// let album: any
-let album: string | number
+let stringArray = ['one', 'two', 'three'];
+let guitars = ['Fender', 'Gibson', 'Ibanez', 5150];
+let mixedData = ['EVH', true, 1991];
 
-myName = 'Alice'
-meaningOfLife = 42
-isLoading = true
-album = 'Red'
-album = 1989
-// album = true error
+stringArray[0] = '1';
+stringArray.push('four');
 
-
-const sum = (a: number, b: string) => {
-    return a + b
-}
-
-let postId: number | string
-
-const g: number = 5
-
+guitars[0]= 1984
+guitars.unshift()

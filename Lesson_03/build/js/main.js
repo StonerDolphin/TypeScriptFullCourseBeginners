@@ -1,16 +1,8 @@
 "use strict";
-let myName = 'Dave';
-let meaningOfLife;
-let isLoading;
-// let album: any
-let album;
-myName = 'Alice';
-meaningOfLife = 42;
-isLoading = true;
-album = 'Red';
-album = 1989;
-album = true;
-const sum = (a, b) => {
-    return a + b;
-};
-let postId;
+let stringArray = ['one', 'two', 'three'];
+let guitars = ['Fender', 'Gibson', 'Ibanez', 5150];
+let mixedData = ['EVH', true, 1991];
+stringArray[0] = '1';
+stringArray.push('four');
+guitars[0] = 1984;
+guitars.unshift();

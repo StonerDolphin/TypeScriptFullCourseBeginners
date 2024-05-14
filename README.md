@@ -88,4 +88,5 @@ const suma = <T>(a: T, b: T): T => {
 En este caso, estamos definiendo la función `suma` que toma dos argumentos `a` y `b` de tipo `T` y devuelve un valor de tipo `T`.
 Esto significa que la función `suma` puede tomar argumentos de cualquier tipo y devolver un valor de cualquier tipo.
 
+## Arrays
 
